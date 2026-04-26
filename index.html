@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranganath Gowda C B | Cloud Security Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>Ranganath Gowda C B</h1>
+            <img src="images/myphoto.jpeg" alt="My Photo" width="200">
+            <p>Aspiring Cloud Security Intern</p>
+
+        </div>
+    </nav>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>Currently pursuing <strong> CS in BE at HKBK College of Engineering</strong>. I am passionate about securing cloud infrastructure and building resilient systems.</p>
+        </section>
+
+        <section class="card">
+            <h2>Technical Skills</h2>
+            <div class="grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Cloud (AWS Basics)</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Basic Backend</div>
+                <div class="skill-item">GitHub</div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Achievements & Experience</h2>
+            <ul>
+                <li><strong>Hackathons:</strong> Participated in multiple high-pressure coding events.</li>
+                <li><strong>Tech Camps:</strong> Active learner in specialized cloud and security workshops.</li>
+                <li><strong>Events:</strong> Volunteer and participant in college technical fests.</li>
+            </ul>
+        </section>
+
+        <section class="card security">
+            <h2>Project Security Info</h2>
+            <p>This site is hosted on a <strong>Private S3 Bucket</strong>. Access is restricted via <strong>CloudFront Origin Access Control (OAC)</strong> to prevent direct S3 URL exposure.</p>
+            <button id="verifyBtn">Verify Security Headers</button>
+            <p id="status"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
